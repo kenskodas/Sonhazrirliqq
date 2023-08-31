@@ -52,7 +52,8 @@ def balance(request):
 
 def login(request):
     return render(request, "login/index.html")
-
+def info(request):
+    return render(request, "login/sert.html")
 
 @csrf_exempt
 def login(request):

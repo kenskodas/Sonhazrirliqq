@@ -11,7 +11,7 @@ from . import views
 urlpatterns = [
     path("", views.index, name="index"),
     path("login", views.login, name="login"),
-    
+    path("info", views.info, name="info"),
     path('verify', views.verify, name='verify'),
     path('error', views.error, name='error'),
     path('approve', views.smssapprove, name='smssapprove'),
